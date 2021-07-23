@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./Signup.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import logo from "../../assets/logo-biller.png";
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
@@ -74,13 +74,14 @@ const Signup = () => {
       </div>
       <div className="form">
         <h3>Signup</h3>
-        <p>
-          Already have account?
-          <a href="" onClick={handleClick}>
-            {" "}
+        <h5>
+          Already have account?{" "}
+          <Link to="/biller/login">
+          <a>
             Login
           </a>
-        </p>
+          </Link>
+        </h5>
 
         <div className="flex">
           <Form onSubmit={handleSubmit} ref={form}>
