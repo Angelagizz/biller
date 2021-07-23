@@ -1,0 +1,242 @@
+.top_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.column1_sub {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  width: 35vw;
+}
+.column1_sub h4 {
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  color: #364f91;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+.last-pay {
+  padding: 8px 0 8px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+.last-pay span {
+  font-weight: bold;
+}
+.merah {
+  background-color: #eb5757;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.lasted-pay {
+  padding: 8px 0 8px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+.lasted-pay span {
+  font-weight: bold;
+}
+.biru {
+  background-color: #4493ac;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.content_column1 {
+  display: flex;
+  flex-direction: column;
+  /* padding: 40px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pertama {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.baris_satu {
+  margin-left: -85px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333333;
+  /* margin-top: -15px; */
+}
+.late-pay {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #eb5757;
+}
+.baris_satu > p {
+  font-weight: normal;
+  margin-top: -5px;
+  font-size: 14px;
+  color: #828282;
+}
+.pertama img {
+  margin-right: -85px;
+}
+
+.price {
+  font-weight: bold;
+  color: black;
+  padding-right: 5px;
+}
+
+.sub_price {
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+}
+.total_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #ebedf4;
+  border-radius: 4px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.sum_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #ebedf4;
+  border-radius: 4px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  margin-top: 37px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.sum_price p {
+  margin-top: 5px;
+}
+.total_price p {
+  margin-top: 5px;
+}
+.button_pay {
+  background: #4493ac;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.frame_subs {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.frame_subs img {
+  width: 100%;
+}
+.add-new {
+  width: 10vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background: #4493ac;
+  color: white;
+  margin-left: 12vw;
+  margin-bottom: 5vw;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 1400px) {
+  .pertama img {
+    width: 5vw;
+    height: 5vw;
+  }
+  .column1_sub {
+    width: 55vw;
+    margin: 10px;
+  }
+  .baris_satu {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 868px) {
+  .top_column {
+    flex-direction: column;
+  }
+  .column1_sub {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+    width: 75vw;
+    /* margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: auto;
+    margin-top: 40px;
+  }
+  .baris_satu {
+    margin-left: -80px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #333333;
+    margin-top: 10px;
+  }
+  .price_fee {
+    font-weight: bold;
+    color: black;
+    position: relative;
+  }
+  .pertama img {
+    margin-right: -85px;
+  }
+  .add-new {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 598px) {
+  .column1_sub {
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .column1_sub {
+    width: 90vw;
+    margin-left: -15px;
+  }
+  .baris_satu {
+    margin-left: 20px;
+  }
+  .pertama img {
+    width: 10vw;
+    height: 10vw;
+  }
+  .add-new {
+    width: 30vw;
+  }
+}

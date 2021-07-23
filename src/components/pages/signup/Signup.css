@@ -1,0 +1,221 @@
+.container_signup {
+  display: flex;
+  width: 100%;
+}
+.rectangle_signup {
+  position: absolute;
+  background: linear-gradient(
+    229.18deg,
+    #364f90 1.54%,
+    #9cccbe 82.95%,
+    #fac9d6 98.72%
+  );
+  opacity: 0.8;
+  transform: rotate(45deg);
+  width: 1300px;
+  height: 900px;
+  border-radius: 180px;
+  margin-left: -800px;
+  margin-top: -350px;
+}
+.slogan_signup {
+  display: flex;
+  position: absolute;
+}
+.slogan_signup > img {
+  margin-left: 40px;
+  margin-top: 200px;
+}
+.slogan1 > h2 {
+  margin-top: 260px;
+  margin-left: -170px;
+  font-size: 40px;
+  color: white;
+}
+.slogan2 > p {
+  margin-top: 315px;
+  margin-left: -415px;
+  color: white;
+  font-size: 20px;
+}
+.form {
+  margin-left: 800px;
+  margin-top: 100px;
+  width: 350px;
+}
+.form > h3 {
+  color: #364f90;
+  font-size: 32px;
+  padding-left: 5px;
+}
+.form > p {
+  color: #999999;
+  font-size: 14px;
+  margin-top: -5px;
+  padding-left: 5px;
+}
+.flex-box2 {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.lastname {
+  margin-left: 32px;
+}
+.lastname > h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #373737;
+}
+.lastname Input {
+  width: 165px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding-left: 10px;
+}
+.firstname > h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #373737;
+}
+.firstname Input {
+  width: 165px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding-left: 10px;
+}
+/* .email {
+  margin-top: -10px;
+} */
+.email > h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #373737;
+}
+.email Input {
+  width: 365px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.pin {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.pin > h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #373737;
+}
+.pin Input {
+  width: 365px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: -22px;
+}
+.pin > i {
+  position: absolute;
+  right: 4%;
+  margin-top: 25px;
+}
+.pin > i:hover {
+  color: #4493ac;
+  cursor: pointer;
+}
+.password {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 20px;
+  /* margin-top: -30px; */
+}
+.password > h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #373737;
+}
+.password Input {
+  width: 365px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999999;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: -62px;
+}
+.form > button {
+  margin-top: 30px;
+  box-shadow: 0px 4px 10px 0px #21445733;
+  border: none;
+  width: 365px;
+  height: 30px;
+  background-color: #4493ac;
+  border-radius: 5px;
+  color: white;
+  margin-left: -2px;
+}
+.password > i {
+  position: absolute;
+  right: 4%;
+  margin-top: 25px;
+}
+.password > i:hover {
+  color: #4493ac;
+  cursor: pointer;
+}
+@media only screen and (max-width: 805px) {
+  .rectangle_signup {
+    /* position: absolute;
+    background: linear-gradient(
+      229.18deg,
+      #364f90 1.54%,
+      #9cccbe 82.95%,
+      #fac9d6 98.72%
+    );
+    opacity: 0.8;
+    transform: rotate(45deg); */
+    width: 1850px;
+    height: 550px;
+    margin-left: -1000px;
+    margin-top: -500px;
+    /* border-radius: 300px;
+    margin-left: -660px;
+    margin-top: -650px;
+    display: flex; */
+  }
+  .slogan_signup > img {
+    margin-left: 20px;
+    margin-top: 130px;
+  }
+  .slogan1 > h2 {
+    margin-top: 200px;
+    margin-left: -150px;
+    font-size: 40px;
+    color: white;
+  }
+  .slogan2 {
+    margin-top: 170px;
+    margin-left: -340px;
+    color: white;
+    font-size: 20px;
+  }
+  .form {
+    margin-left: 50px;
+    margin-top: 520px;
+    width: 350px;
+  }
+}

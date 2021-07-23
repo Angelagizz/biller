@@ -1,0 +1,13 @@
+.load{
+    height: 300px;
+    width: 476px;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px){
+    .load{
+        height: 200px;
+        width: 376px;
+    }
+
+}

@@ -1,0 +1,161 @@
+#nav #button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav button {
+  background: #4493ac;
+  margin-right: 1rem;
+}
+
+#icon {
+  margin-right: 1rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.notif{
+  background: #FFFFFF;
+  border: 1px solid #C3CADE;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  border-radius: 8px;
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  color: black;
+  width: 20vw;
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+/* width */
+.notif::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+.notif::-webkit-scrollbar-track {
+  background:rgba(214, 211, 211, 0);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 8px;
+
+}
+ 
+/* Handle */
+.notif::-webkit-scrollbar-thumb {
+  background: rgba(238, 234, 234,0.1); 
+  border-radius : 8px;
+}
+
+/* Handle on hover */
+.notif::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 193, 193); 
+}
+
+.notif::-webkit-scrollbar-track:hover {
+  background: rgba(235, 232, 232, 0.9) 
+} 
+
+.notif-list{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #C3CADE;
+  align-items: center;
+}
+
+.notif-list:hover{
+  background: #EBEDF4;
+  cursor: pointer;
+}
+
+.notif-list img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.notif-title{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.notif-detail{
+  font-size: 11px;
+  color: gray;
+}
+
+.see-more{
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.see-more:hover{
+  cursor: pointer;
+}
+.bell{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.bell:hover,
+.person:hover{
+  cursor: pointer;
+  background-color: #cecece;
+  border-radius: 50px;
+}
+
+.bell-aktif,
+.person-aktif{
+  margin-right: 1rem;
+  background-color: #cecece;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+
+.profile-list{
+  padding: 5px;
+  border-radius: 5px;
+}
+.profile-list:hover{
+  background-color: #ECEEEF;
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px) {
+  .menu-right{
+    width: 100vw;
+    justify-content: center;
+  }
+  .notif{
+    width: 100%;
+    right: 0;
+    top: 170px;
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+  .notif{
+    width: 50vw;
+    right: 0;
+  }
+}
+

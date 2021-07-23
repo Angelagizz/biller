@@ -1,0 +1,45 @@
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+#container {
+  background-color: #263765;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+}
+
+.list-unstyled ul {
+  font-weight: 500;
+}
+
+.nav-item a {
+  font-weight: 500;
+  color: #000000;
+}
+
+.nav-item a:hover {
+  color: #7284b1;
+}
+
+.list-unstyled a:hover {
+  color: #c3cade;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.list-unstyled li {
+  font-weight: 300;
+}
+
+#sticky-footer {
+  background: linear-gradient(
+    229.18deg,
+    #364f90 1.54%,
+    #9cccbe 82.95%,
+    #fac9d6 98.72%
+  );
+}

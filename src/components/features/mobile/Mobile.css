@@ -1,0 +1,25 @@
+.containerku {
+  width: 90vw;
+  margin: auto;
+}
+
+.mobile-option {
+  margin-top: 50px;
+}
+
+.mobile-option .rowku {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-option .rowku .opsi {
+  margin-right: 10px;
+}
+
+.mobile-option .rowku .opsi input {
+  margin-right: 5px;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px) {
+}

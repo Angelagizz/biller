@@ -1,0 +1,69 @@
+.column{
+    border-top: 1px dashed blue;
+    padding-top:15px;
+}
+
+.current-payment{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.payment-options{
+    background: #FFFFFF;
+    border: 2px solid #9CCCBE;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+    border-radius: 16px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.btn-save{
+    background: #4493AC;
+    box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px 20px;
+    color: #FFFFFF;
+}
+
+.payment-options .cardd{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 10px 80px 10px 5px;
+}
+
+.btn-newcard{
+    background: #FFFFFF;
+    border: 1px dashed #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-newcard:hover{
+    border: 1px dashed blue;
+    cursor: pointer;
+}
+
+.btn-save:hover{
+    background: #122E3D;
+    cursor:pointer;
+}
+
+.payment-options .title{
+    margin-bottom: 10px;
+}
+
+.paymentmethodmodal .title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}

@@ -1,0 +1,303 @@
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.payment_history {
+  display: flex;
+  width: 80%;
+  margin-top: 2vw;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-right: 5vw;
+}
+.subtitle1 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: normal;
+}
+.subtitle2 {
+  font-size: 14px;
+}
+.subtitle2 > p:hover {
+  cursor: pointer;
+}
+.subtitle2 > form {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  width: 11vw;
+  height: 13vw;
+  padding: 15px;
+  padding-top: 20px;
+  justify-content: right;
+  top: 150px;
+  /* right: 150px; */
+  position: absolute;
+}
+.filter_card {
+  padding-bottom: 15px;
+  font-size: 15px;
+  color: #333333;
+}
+.pertama_kotak {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ebedf4;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.pertama_kotak > img {
+  margin-top: -14px;
+}
+
+.baris_kotak {
+  /* margin-left: -230px; */
+  text-align: left;
+  width: 280px;
+}
+.price_kotak {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.baris_kotak > p {
+  margin-top: -5px;
+  color: #828282;
+  font-size: 14px;
+}
+.baris_kotak > h6 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0;
+}
+.kotak_payment {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  width: 35vw;
+  max-height: 80vh;
+  /* min-height: 40vh; */
+  overflow-y: scroll;
+}
+/* width */
+.kotak_payment::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+.kotak_payment::-webkit-scrollbar-track {
+  background:rgba(214, 211, 211, 0);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 8px;
+
+}
+ 
+/* Handle */
+.kotak_payment::-webkit-scrollbar-thumb {
+  background: rgba(238, 234, 234); 
+  border-radius : 8px;
+}
+
+/* Handle on hover */
+.kotak_payment::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 193, 193); 
+}
+
+.kotak_payment::-webkit-scrollbar-track:hover {
+  background: rgba(235, 232, 232, 0) 
+} 
+.history_date {
+  background: #e0e0e0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+.history_date > span {
+  font-size: 13px;
+  color: #333333;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.empty {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  width: 35vw;
+  /* height: 35vw; */
+}
+.image-history > img {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30%;
+}
+
+.image-history{
+  margin-bottom: 30%;
+}
+.grayyy {
+  color: #bdbdbd;
+  font-size: 15px;
+  text-align: center;
+}
+.title_receipt_history {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-top: 1vw;
+}
+.coref {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.abuu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  margin-right: 5vw;
+}
+.borderline {
+  width: 25vw;
+  margin-left: 5vw;
+}
+.history-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.history-list span {
+  font-weight: bold;
+}
+.detail-history {
+  margin: 5vw;
+  margin-top: 1.5vw;
+}
+.token {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: #ebedf4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+}
+
+.pertama_kotak:hover{
+  cursor: pointer;
+  background-color: #f5f5f8;
+}
+.akktiv{
+  background-color: #f5f5f8;
+}
+@media only screen and (max-width: 1310px) {
+  .subtitle2 form {
+    width: 15vw;
+    height: 17vw;
+  }
+  .history {
+    margin: auto;
+  }
+  .kotak_payment {
+    width: 40vw;
+  }
+  .empty {
+    width: 40vw;
+    height: 57vw;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .subtitle2 form {
+    width: 18vw;
+    height: 20vw;
+  }
+  .kotak_payment {
+    width: 45vw;
+  }
+  .empty {
+    width: 45vw;
+    height: 68vw;
+    padding-top: 10px;
+  }
+  .history {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 789px) {
+  .history {
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    margin-top: 5vw;
+  }
+  .subtitle2 form {
+    width: 24vw;
+    height: 27vw;
+    top: 220px;
+  }
+  .kotak_payment {
+    width: 70vw;
+  }
+  .empty {
+    width: 70vw;
+    height: 90vw;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .kotak_payment {
+    width: 95vw;
+  }
+  .history {
+    width: 100%;
+  }
+  .empty {
+    width: 95vw;
+    height: 108vw;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .subtitle2 form {
+    width: 34vw;
+    height: 37vw;
+  }
+}
+@media only screen and (max-width: 478px) {
+  .kotak_payment {
+    width: 90vw;
+  }
+  .history {
+    width: 95%;
+  }
+  .empty {
+    width: 90vw;
+    height: 146vw;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .subtitle2 form {
+    width: 39vw;
+    height: 44vw;
+  }
+}

@@ -1,0 +1,288 @@
+.containerku {
+  width: 90vw;
+  margin: auto;
+}
+
+.confirmation-frame {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bill-detail {
+  background: #ffffff;
+  border: 1px solid #c3cade;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  width: 30vw;
+  margin-right: 50px;
+}
+
+.purple {
+  background: #ebedf4;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px;
+}
+
+.gray {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+}
+
+.bold {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+.title {
+  font-size: 20px;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px dashed black;
+  padding-top: 15px;
+}
+
+.resume {
+  padding: 10px 30px;
+  margin-bottom: 50px;
+}
+
+.btn-upload {
+  border: 1px dashed #cca0aa;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.btn-upload:hover {
+  cursor: pointer;
+  background: #f3fffb;
+}
+
+.detail-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.detail-list span {
+  font-weight: bold;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+.payment {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  border-radius: 16px;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.payment .change:hover {
+  cursor: pointer;
+}
+
+.rowku {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 17px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.payment .rowku span {
+  font-weight: bold;
+}
+
+.payment .rowku {
+  justify-content: space-between;
+}
+
+.payment-btn {
+  background: #4493ac;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.payment-btn:hover {
+  background: #122e3d;
+  cursor: pointer;
+}
+/* bill recurring */
+
+.bill-recurring {
+  border: 1px solid #c3cade;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  border-radius: 8px;
+  width: 30vw;
+  padding: 20px;
+  background: #263765;
+}
+
+.rowku .text {
+  padding-top: 11px;
+  color: #fff;
+}
+
+.rowku .text span {
+  font-weight: bold;
+}
+
+.rowku .text p {
+  font-size: 15px;
+}
+
+.space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.tengah {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Recurring Menu */
+.border03 {
+  height: 3px;
+  background-image: linear-gradient(
+      80deg,
+      transparent,
+      transparent 50%,
+      #fff 50%,
+      #fff 100%
+    ),
+    linear-gradient(80deg, #c3ffed, #ffc8d5);
+  background-size: 20px 3px, 100% 3px;
+  border: none;
+  width: 25vw;
+  margin-left: 0;
+  padding-left: 2px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.recurring-menu {
+  border-top: 1px dashed #ffffff;
+  padding: 20px;
+}
+
+.information {
+  background: #ebedf4;
+  border-radius: 5px;
+  display: flex;
+  color: #263765;
+}
+
+.information img {
+  width: 70px;
+  height: 70px;
+  border-top-left-radius: 5px;
+  margin-right: 10px;
+}
+
+.information span {
+  font-weight: bold;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.formgroup select {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.formgroup label {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px) {
+  .confirmation-frame {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bill-detail,
+  .bill-recurring {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .payment,
+  .payment-btn {
+    margin-top: 20px;
+  }
+
+  .payment-btn {
+    margin-bottom: 20px;
+  }
+
+  .information p {
+    font-size: 13px;
+  }
+
+  .information img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .resume {
+    padding: 5px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bill-detail,
+  .bill-recurring {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+}

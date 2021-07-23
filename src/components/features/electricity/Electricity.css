@@ -1,0 +1,28 @@
+.containerku{
+    width: 90vw;
+    margin: auto;
+}
+
+.electricity-option{
+    margin-top: 50px;
+}
+
+.electricity-option .rowku{
+    display: flex;
+    flex-direction: row;
+}
+
+.electricity-option .rowku .opsi{
+    margin-right: 10px;
+}
+
+.electricity-option .rowku .opsi input{
+    margin-right: 5px;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px){
+  
+}
+
+

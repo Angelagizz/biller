@@ -1,0 +1,114 @@
+/* .container_newbill {
+  margin-left: 8vw;
+  margin-right: 8vw; */
+  /* margin-top: 0.5vw; */
+/* } */
+.new-bill h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #828282;
+}
+.new-bill h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+
+.bills-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.bill-card {
+  background: #ffffff;
+  border: 1px solid #c3cade;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 13vw;
+  padding: 20px;
+  align-items: center;
+}
+
+.bill-card:hover {
+  cursor: pointer;
+  background: #f3fffb;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+}
+
+.selected{
+  background: #f3fffb;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+}
+
+.bill-card .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bill-card .content h4 {
+  font-size: 17px;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px) {
+  .new-bill h3 {
+    font-size: 17px;
+  }
+  .bills-category {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .bill-card {
+    width: 40vw;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .bill-card .content {
+    align-items: center;
+  }
+  .bill-card .content img {
+    width: 30px;
+    height: 40px;
+  }
+
+  .bill-card .content h4 {
+    font-size: 13px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bills-category {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .bill-card {
+    width: 25vw;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .bill-card .content {
+    align-items: center;
+  }
+  .bill-card .content img {
+    width: 30px;
+    height: 40px;
+  }
+
+  .bill-card .content h4 {
+    font-size: 13px;
+  }
+}

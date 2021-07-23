@@ -1,0 +1,86 @@
+.bills-category-modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.bills-category-modal .bill-card{
+    background: #FFFFFF;
+    border: 1px solid #C3CADE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width :10vw;
+    padding: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bill-card:hover{
+    cursor: pointer;
+    background: #F3FFFB;
+    box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+}
+
+.bill-card .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 767px){
+    .bills-category-modal{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .bills-category-modal .bill-card{
+        width: 40vw;
+        padding: 5px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .bill-card .content{
+        align-items: center;
+    }
+    .bill-card .content img{
+        width: 20px;
+        height: 30px;
+    }
+
+    .bill-card .content h4{
+        font-size: 12px;
+    }
+   
+}  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bills-category-modal{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .bills-category-modal .bill-card{
+        width: 25vw;
+        padding: 5px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .bill-card .content{
+        align-items: center;
+    }
+    .bill-card .content img{
+        width: 30px;
+        height: 40px;
+    }
+
+    .bill-card .content h4{
+        font-size: 13px;
+    }
+
+}

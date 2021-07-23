@@ -1,0 +1,145 @@
+.pdam_container1 {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  width: 80vw;
+  margin: auto;
+  margin-top: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 10vw;
+}
+.pdam_search {
+  text-align: left;
+  width: 35vw;
+  margin-left: 5vw;
+}
+.pdam_search > p {
+  color: #263765;
+  font-size: 16px;
+  font-weight: bold;
+}
+.kolom_search > input {
+  width: 30vw;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.search-icon {
+  right: 6%;
+}
+.search-boxes {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(54, 79, 145, 0.3);
+  margin-top: 10px;
+  padding: 20px;
+  width: 30vw;
+  height: 40vh;
+  overflow-y: scroll;
+}
+.search-boxes::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.search-boxes::-webkit-scrollbar-track {
+  background: rgba(214, 211, 211, 0);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Handle */
+.search-boxes::-webkit-scrollbar-thumb {
+  background: rgba(238, 234, 234, 0.1);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.search-boxes::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 193, 193);
+}
+
+.search-boxes::-webkit-scrollbar-track:hover {
+  background: rgba(235, 232, 232, 0.9);
+}
+
+.boxes {
+  padding-bottom: 15px;
+}
+.test_class {
+  width: 30vw;
+}
+.pdam_customer {
+  width: 35vw;
+  margin-left: 5vw;
+}
+.pdam_customer > p {
+  color: #263765;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pdam_customer > textarea {
+  width: 30vw;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  color: #828282;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: -10px;
+  padding-left: 5px;
+}
+.button_pdam > button {
+  margin-right: 160px;
+  margin-top: 50px;
+  width: 15vw;
+  height: 3.5vw;
+  border: none;
+  background-color: #4493ac;
+  color: white;
+  border-radius: 6px;
+  padding: 0;
+}
+.button_pdam {
+  text-align: right;
+  margin: auto;
+}
+@media only screen and (max-width: 615px) {
+  .pdam_container1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    margin-top: 10vw;
+  }
+  .kolom_search > input {
+    width: 50vw;
+    margin-bottom: 20px;
+  }
+  .pdam_search {
+    width: 65vw;
+  }
+  .pdam_customer {
+    width: 65vw;
+  }
+  .pdam_customer > textarea {
+    width: 50vw;
+  }
+  .button_pdam > button {
+    width: 22vw;
+    height: 7vw;
+    margin-left: 10vw;
+  }
+  .button_pdam {
+    text-align: left;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .search-boxes {
+    width: 50vw;
+    margin-bottom: 20px;
+  }
+}
